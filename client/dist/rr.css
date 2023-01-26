@@ -1,7 +1,7 @@
 /* Ratings & Reviews CSS file */
 
 /* RESET */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -15,16 +15,14 @@
 .rr dl, .rr dt, .rr dd, .rr ol, .rr ul, .rr li,
 .rr fieldset, .rr form, .rr label, .rr legend,
 .rr table, .rr caption, .rr tbody, .rr tfoot, .rr thead, .rr tr, .rr th, .rr td,
-.rr article, .rr aside, .rr canvas, .rr details, .rr embed, 
-.rr figure, .rr figcaption, .rr footer, .rr header, .rr hgroup, 
+.rr article, .rr aside, .rr canvas, .rr details, .rr embed,
+.rr figure, .rr figcaption, .rr footer, .rr header, .rr hgroup,
 .rr menu, .rr nav, .rr output, .rr ruby, .rr section, .rr summary,
 .rr time, .rr mark, .rr audio, .rr video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/*font-size: 100%;*/
   font-size: 14px;
-	/*font: inherit;*/
 	vertical-align: baseline;
 }
 .rr ol, .rr ul {
@@ -52,10 +50,7 @@
 
 .rr {
 	line-height: 1;
-  /*width: 100%;*/
   width: 100%;
-  /*margin-left: 5%;
-  margin-right: 5%;*/
   font-family: 'Helvetica Neue', 'Arial', 'Liberation Sans';
 }
 
@@ -75,13 +70,11 @@
   padding-bottom: 0.7rem;
   padding-left: 2rem;
   border-bottom: 1px solid #000;
-  /*text-align: center;*/
 }
 
 /* media queries */
 @media screen and (min-width: 1000px) {
   .rr .review-grid {
-    /*border: solid 1px black;*/
     display: grid;
   }
 }
@@ -96,7 +89,6 @@
   }
 }
 .rr .review-list {
-  /*border: solid 1px black;*/
   grid-column: 2/5;
   grid-row: 2/6;
   overflow-y: scroll;
@@ -110,7 +102,6 @@
   transition-timing-function: ease;
 }
 .rr .review-tile {
-  /*border: solid 1px black;*/
   border-bottom: solid 1px #000;
   opacity: 1;
   transition-property: opacity;
@@ -174,9 +165,6 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  /*transition-property: opacity;
-  transition-duration: 0.5s;
-  transition-timing-function: linear;*/
 }
 .rr .image-modal img {
   width: auto;
@@ -186,13 +174,7 @@
   vertical-align: middle;
 
 }
-/*
-.rr img.checkmark {
-  width: 1.4rem;
-  height: 1.4rem;
-  padding-right: 0.7rem;
-  vertical-align: middle;
-}*/
+
 .rr img.star {
   height: 12px;
   width: 12px;
@@ -203,21 +185,16 @@
 #rr-write-review-btn {
   display: inline-block;
   top: 1080;
-  /*left: 100;*/
-  /*width: 80%;*/
 }
 #rr-write-review-btn.float {
   position: fixed;
   text-align: center;
-  /*font-size: 1.05rem;*/
   transition-property: top;
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
-  /*background-color: #ccc;*/
   background-color: #000;
   color: #fff;
   box-sizing: border-box;
-  /*padding: 1rem 1rem;*/
 }
 .rr .rr-wrapper {
   position: fixed;
@@ -229,7 +206,6 @@
 }
 .rr .write-review .close {
   text-align: right;
-  /*display: inline-block;*/
   margin-right: 1rem;
   margin-top: 1rem;
   width: auto;
@@ -242,14 +218,11 @@
   height: 3rem;
 }
 .rr .sort-options select {
-  /*border: none;*/
   border: 1px solid #000;
   font-size: 1rem;
   height: 24px;
   background-color: white;
-  /*text-decoration: underline;*/
   font-variant: small-caps;
-  /*font-size: 1rem;*/
   margin-left: 0.3rem;
   margin-right: 1.4rem;
 }
@@ -261,23 +234,18 @@
   border: 1px solid #000;
   font-size: 12px;
   height: 24px;
-  /*height: 1.4rem;*/
-  /*font-size: 1rem;*/
 }
 .rr .sort-options option {
   border: none;
   background-color: white;
   text-decoration: underline;
   font-variant: small-caps;
-  /*font-size: 1rem;*/
 }
 .rr .sort-options {
-  /*border: solid 1px black;*/
   grid-column: 2/5;
   grid-row: 1;
 }
 .rr .rating-breakdown {
-  /*border: solid 1px black;*/
   grid-column: 1/2;
   grid-row: 1/4;
 }
@@ -294,8 +262,6 @@
   height: 80%;
   position: relative;
   overflow: hidden;
-  /*overflow-y: scroll;*/
-  /*border: solid 1px black;*/
   background-color: white;
   opacity: 1;
   transition-property: opacity;
@@ -310,7 +276,6 @@
 }
 .rr .rating-filter:hover {
 	cursor: pointer;
-  /*background-color: #57e389;*/
   background-color: #eee;
   transition-property: background-color;
   transition-duration: 0.3s;
@@ -333,7 +298,6 @@
 }
 .rr .rating-filter .rating-bar .inner-bar {
   background-color: #33d17a;
-  /*background-color: #000;*/
   height: 0.75rem;
   vertical-align: middle;
 }
